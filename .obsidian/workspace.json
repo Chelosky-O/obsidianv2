@@ -4,35 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "47ae3ccb816d3251",
+        "id": "c7ba8cdfb993ec77",
         "type": "tabs",
         "children": [
           {
-            "id": "bc23e72f5020daea",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Vista gráfica"
-            }
-          },
-          {
-            "id": "4a74fdeb0e95622f",
+            "id": "31850f7c4c037118",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Data Analyst Google/Notas 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Notas 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Data Analyst Google/Notas 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de README"
+              "title": "Enlaces entrantes de Notas 1"
             }
           },
           {
@@ -124,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Data Analyst Google/Notas 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de README"
+              "title": "Enlaces salientes de Notas 1"
             }
           },
           {
@@ -153,21 +142,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "Data Analyst Google/Notas 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de README"
+              "title": "Esquema de Notas 1"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,10 +168,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8685d27877a960df",
+  "active": "31850f7c4c037118",
   "lastOpenFiles": [
-    "Data Analyst Google/Notas 1.md",
     "README.md",
+    "Data Analyst Google/Notas 1.md",
+    "Data Analyst Google/Glosario.md",
     "Bienvenido.md",
     "Data Analyst Google"
   ]

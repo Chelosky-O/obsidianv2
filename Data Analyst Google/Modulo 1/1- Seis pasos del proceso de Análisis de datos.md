@@ -1,6 +1,4 @@
 
-## Seis pasos del proceso de Análisis de datos
-
 1. Preguntar
 	- Los analistas deben definir como será el proyecto y que se consideraría un resultado satisfactorio.
 	- Para esto, formularon preguntas eficaces y colaboraron con líderes y directivos que estaban interesados en el resultado de su análisis de personas.
@@ -32,6 +30,4 @@
 6. Actuar
 	- Implementar cambios y tomar medidas basadas en los resultados
 	- Resumen: Usted y otras personas de la empresa ponen en práctica las conclusiones de los datos. Esto podría significar implementar una nueva estrategia empresarial, realizar cambios en un sitio web o cualquier otra acción que resuelva el problema inicial.
-
-# Cómo abordan las tareas los analistas de datos
 

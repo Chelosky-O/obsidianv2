@@ -8,20 +8,35 @@
         "type": "tabs",
         "children": [
           {
-            "id": "31850f7c4c037118",
+            "id": "a15c3e5f988cca41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Analyst Google/Notas 1.md",
+                "file": "Data Analyst Google/Modulo 1/1- Seis pasos del proceso de Análisis de datos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Notas 1"
+              "title": "1- Seis pasos del proceso de Análisis de datos"
+            }
+          },
+          {
+            "id": "0b9ee2e72e9e0ba6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Analyst Google/Modulo 2/1 - Etapas del Ciclo de vida de los Datos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "1 - Etapas del Ciclo de vida de los Datos"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Analyst Google/Notas 1.md",
+                "file": "Data Analyst Google/Modulo 2/1 - Etapas del Ciclo de vida de los Datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Notas 1"
+              "title": "Enlaces entrantes de 1 - Etapas del Ciclo de vida de los Datos"
             }
           },
           {
@@ -168,11 +183,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "31850f7c4c037118",
+  "active": "0b9ee2e72e9e0ba6",
   "lastOpenFiles": [
+    "Data Analyst Google/Modulo 1/1- Seis pasos del proceso de Análisis de datos.md",
+    "Data Analyst Google/Modulo 2/1 - Etapas del Ciclo de vida de los Datos.md",
+    "Data Analyst Google/Modulo 1/4 - Pensamiento analítico.md",
+    "Data Analyst Google/Modulo 2",
+    "Data Analyst Google/Modulo 1/3 - Habilidades esenciales de un analista de datos.md",
+    "Data Analyst Google/Modulo 1/2 - Proceso análisis de datos.md",
+    "Data Analyst Google/Modulo 1/5 - Desafío.md",
+    "Data Analyst Google/Modulo 1/0 - Glosario.md",
+    "Data Analyst Google/Modulo 1",
     "README.md",
-    "Data Analyst Google/Notas 1.md",
-    "Data Analyst Google/Glosario.md",
     "Bienvenido.md",
     "Data Analyst Google"
   ]

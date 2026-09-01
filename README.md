@@ -1,1 +1,1 @@
-Apuntes Desde 03/07/2025
+Notas/Apuntes para estudio/investigación.

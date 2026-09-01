@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Professional Data Engineer/1- Preparación Examen/Diseño de sistemas de procesamiento de datos.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Diseño de sistemas de procesamiento de datos"
+              "title": "README"
             }
           }
         ]
@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Explorador de archivos"
@@ -166,7 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 352.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,11 +184,13 @@
   },
   "active": "4ae63baecca72935",
   "lastOpenFiles": [
-    "Professional Data Engineer/1- Preparación Examen/T-GCPPDE-A-m0-l6-es-file-7.es.pdf",
-    "Professional Data Engineer/1- Preparación Examen",
-    "Professional Data Engineer/1- Preparación Examen/Diseño de sistemas de procesamiento de datos.md",
-    "Professional Data Engineer/Sin título.md",
     "Sin título.base",
+    "README.md",
+    "Sin título.md",
+    "Professional Data Engineer/1- Preparación Examen/Diseño de sistemas de procesamiento de datos.md",
+    "Professional Data Engineer/1- Preparación Examen/T-GCPPDE-A-m0-l6-es-file-7.es.pdf",
+    "Professional Data Engineer/Sin título.md",
+    "Professional Data Engineer/1- Preparación Examen",
     "Professional Data Engineer",
     "ACL/Ciclo de Vida del Software y su Integración Estratégica con OKR y KPI.md",
     "ACL/Sin nombre",
@@ -200,7 +204,6 @@
     "Data Analyst Google/Curso 1/Modulo 2/4 - Importancia de las decisiones empresariales.md",
     "Sin nombre 8",
     "Sin nombre 7",
-    "Sin nombre 6",
     "Data Analyst Google/Curso 1/Modulo 2/3 - Data analysis toolbox.md",
     "Data Analyst Google/Curso 1/Modulo 2/2 - Fases de Análisis de datos.md",
     "Data Analyst Google/Curso 1/Modulo 2/1 - Etapas del Ciclo de vida de los Datos.md",
@@ -211,7 +214,6 @@
     "Data Analyst Google/Curso 1/Modulo 1/1- Seis pasos del proceso de Análisis de datos.md",
     "Data Analyst Google/Curso 1/Modulo 1/0 - Glosario.md",
     "Data Analyst Google/Curso 1/Modulo 1/5 - Desafío.md",
-    "README.md",
     "Bienvenido.md"
   ]
 }

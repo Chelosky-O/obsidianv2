@@ -8,33 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "868f0b90032260a3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "Registro de cambios 1.9.14"
-            }
-          },
-          {
             "id": "4ae63baecca72935",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Professional Data Engineer/1. Build a Certification Study Guide - PDE Exam Prep.md",
+                "file": "Professional Data Engineer/1- Preparación Examen/Diseño de sistemas de procesamiento de datos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Build a Certification Study Guide - PDE Exam Prep"
+              "title": "Diseño de sistemas de procesamiento de datos"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Professional Data Engineer/1. Build a Certification Study Guide - PDE Exam Prep.md",
+                "file": "Professional Data Engineer/1- Preparación Examen/Diseño de sistemas de procesamiento de datos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de 1. Build a Certification Study Guide - PDE Exam Prep"
+              "title": "Enlaces entrantes de Diseño de sistemas de procesamiento de datos"
             }
           },
           {
@@ -195,8 +182,10 @@
   },
   "active": "4ae63baecca72935",
   "lastOpenFiles": [
+    "Professional Data Engineer/1- Preparación Examen/T-GCPPDE-A-m0-l6-es-file-7.es.pdf",
+    "Professional Data Engineer/1- Preparación Examen",
+    "Professional Data Engineer/1- Preparación Examen/Diseño de sistemas de procesamiento de datos.md",
     "Professional Data Engineer/Sin título.md",
-    "Professional Data Engineer/1. Build a Certification Study Guide - PDE Exam Prep.md",
     "Sin título.base",
     "Professional Data Engineer",
     "ACL/Ciclo de Vida del Software y su Integración Estratégica con OKR y KPI.md",
@@ -212,7 +201,6 @@
     "Sin nombre 8",
     "Sin nombre 7",
     "Sin nombre 6",
-    "Sin nombre 5",
     "Data Analyst Google/Curso 1/Modulo 2/3 - Data analysis toolbox.md",
     "Data Analyst Google/Curso 1/Modulo 2/2 - Fases de Análisis de datos.md",
     "Data Analyst Google/Curso 1/Modulo 2/1 - Etapas del Ciclo de vida de los Datos.md",

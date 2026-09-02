@@ -222,3 +222,7 @@
 - Si un modelo no representa bien el objetivo empresarial, considera mejorar los **atributos de entrada** antes de simplemente aumentar el tiempo de entrenamiento.
 
 - La ingeniería de atributos puede incluir **combinar columnas existentes para crear nuevas variables más útiles**.
+
+# Analytics Hub
+
+- [[Analytics Hub]] #analyticshub es una herramienta conveniente para compartir datos con socios. Los ingenieros de datos tendrán control sobre lo que las personas pueden hacer con sus datos. Analytics Hub también puede convertir un centro de costos en un centro de ganancias con la monetización de datos.

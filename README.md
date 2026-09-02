@@ -1,1 +1,0 @@
-Notas/Apuntes para estudio/investigación.

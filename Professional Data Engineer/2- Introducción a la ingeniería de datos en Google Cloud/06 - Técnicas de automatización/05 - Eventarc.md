@@ -1,6 +1,6 @@
 # 05 — Eventarc
 
-[[00 - Índice|Índice del sub-módulo]] · [[04 - Cloud Run Functions|← Anterior: Cloud Run Functions]] · [[01 - Patrones y opciones de pipelines|Inicio del sub-módulo →]]
+[[00 - Índice|Índice de la sección]] · [[04 - Cloud Run Functions|← Anterior: Cloud Run Functions]] · [[99 - Guía rápida de decisiones|Repaso del curso →]]
 
 > [!abstract] Resumen
 > **Eventarc** permite crear una **arquitectura unificada por eventos** para servicios **débilmente acoplados**. Conecta **fuentes de eventos** (servicios de Google Cloud, sistemas terceros, eventos personalizados vía Pub/Sub) con **destinos** (Cloud Run Functions, GKE, endpoints HTTP internos, Workflows). Usa el **formato estándar CloudEvent**, que simplifica la integración y facilita apps **responsivas y escalables**. Es **language-agnostic** y de **esfuerzo alto**.

@@ -2,7 +2,7 @@
 
 [Abrir la ruta oficial](https://partner.skills.google/paths/85?locale=es)
 
-[[01 - Apuntes nuevos|✍️ Abrir bandeja de apuntes]] · [[00 - Índice del módulo|📚 Abrir módulo actual]]
+[[01 - Apuntes nuevos|✍️ Abrir bandeja de apuntes]] · [[00 - Índice del curso|📚 Abrir curso actual]]
 
 - **Extensión:** 15 actividades
 - **Actualización mostrada:** hace 4 meses, consultado el 2 de septiembre de 2026
@@ -11,9 +11,9 @@
 
 **Actividad 2 — Introducción a la ingeniería de datos en Google Cloud**
 
-- [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/00 - Índice del módulo|Índice y orden de estudio]]
-- [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - ELT y Dataform|Punto más reciente: ELT y Dataform]]
-- [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/07 - Guía rápida de decisiones|Repaso rápido del módulo]]
+- [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/00 - Índice del curso|Índice y secciones del curso]]
+- [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/05 - Patrón de extracción, transformación y carga (ETL)/03 - Quiz de la sección ETL|Punto más reciente: quiz ETL — 80 %]]
+- [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/99 - Guía rápida de decisiones|Repaso rápido del curso]]
 
 ## Diagnóstico y recursos
 

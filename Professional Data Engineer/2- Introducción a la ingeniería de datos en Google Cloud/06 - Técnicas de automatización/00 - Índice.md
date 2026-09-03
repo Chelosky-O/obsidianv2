@@ -1,8 +1,11 @@
-# Técnicas de automatización
+# 06 — Técnicas de automatización
 
-[[00 - Índice del módulo|← Volver al módulo]] · [[01 - Patrones y opciones de pipelines|Primera nota: Patrones y opciones]]
+> [!info] Sección del curso
+> **Automation Techniques**
 
-> [!abstract] Objetivo del sub-módulo
+[[00 - Índice del curso|← Índice del curso]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/05 - Patrón de extracción, transformación y carga (ETL)/03 - Quiz de la sección ETL|← Quiz ETL]] · [[01 - Patrones y opciones de pipelines|Comenzar la sección →]]
+
+> [!abstract] Objetivo de la sección
 > Entender cómo **automatizar y orquestar** cargas ELT/ETL en Google Cloud. Distinguir entre disparo **programado** vs **por eventos**, y elegir el servicio según tipo de trigger, si es serverless y el esfuerzo de código.
 
 ## Contenido

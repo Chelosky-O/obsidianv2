@@ -3,7 +3,7 @@
 > [!abstract] Idea central
 > En **ELT**, los datos se cargan primero en tablas de *staging* de BigQuery y se transforman después, aprovechando la capacidad de procesamiento de BigQuery. El resultado se materializa en tablas de producción listas para análisis.
 
-[[00 - Índice del módulo|← Índice del módulo]] · [[05 - Carga de datos y BigLake|← Carga y BigLake]] · [[07 - Guía rápida de decisiones|Repaso del módulo →]]
+[[00 - Índice|← Índice de la sección]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/03 - Patrón de extracción y carga (EL)/01 - Carga de datos y BigLake|← Sección anterior: patrón EL]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/05 - Patrón de extracción, transformación y carga (ETL)/00 - Índice|Siguiente sección: patrón ETL →]]
 
 ## Mapa del patrón
 
@@ -122,6 +122,10 @@ flowchart LR
 4. BigQuery ejecuta las acciones respetando el grafo de dependencias.
 5. Las transformaciones pueden ejecutarse bajo demanda o mediante una programación.
 
+![[Pasted image 20260903094141.png|900]]
+
+*Dataform compila las definiciones SQLX a GoogleSQL y encadena las acciones según sus dependencias.*
+
 ### Estructura básica del proyecto
 
 | Elemento | Función |
@@ -143,6 +147,8 @@ Un archivo `.sqlx` puede contener:
 - cuerpo SQL: la transformación principal;
 - `post_operations`: SQL posterior, por ejemplo permisos.
 
+`pre_operations` y `post_operations` son bloques dentro de una definición; no son lo mismo que una acción autónoma `type: "operations"`.
+
 ```sql
 config {
   type: "table",
@@ -162,6 +168,10 @@ FROM ${ref("customer_source")}
 > [!note] Qué aporta este ejemplo
 > `ref("customer_source")` referencia la tabla y crea una dependencia. `mapping.region(...)` reemplaza un `CASE` repetitivo por una función reutilizable. Las aserciones comprueban unicidad y valores nulos después de crear la tabla.
 
+![[Pasted image 20260903093715.png|900]]
+
+*SQLX elimina SQL repetitivo: `config` define el objeto, `ref()` resuelve la fuente y una función de `includes` puede reutilizar la lógica del `CASE`.*
+
 ### Tipos de acciones
 
 | Acción | Uso |
@@ -169,9 +179,17 @@ FROM ${ref("customer_source")}
 | `declaration` | Declara una fuente de BigQuery administrada fuera de Dataform. |
 | `table` | Crea o reemplaza una tabla a partir de un `SELECT`. |
 | `incremental` | Procesa solo datos nuevos o modificados. |
-| `view` | Crea o reemplaza una vista; puede materializarse cuando corresponde. |
-| `assertion` | Ejecuta una prueba de calidad. |
-| `operation` | Ejecuta SQL personalizado antes, durante o después del flujo. |
+| `view` | Crea o reemplaza una vista; `materialized: true` la convierte en vista materializada. |
+| `assertion` | Ejecuta una prueba de calidad definida mediante una consulta. |
+| `operations` | Ejecuta instrucciones SQL personalizadas. |
+
+![[Pasted image 20260903093734.png|900]]
+
+![[Pasted image 20260903093833.png|900]]
+
+*Las cuatro primeras acciones definen relaciones; `assertion` valida los datos y `operations` permite SQL personalizado.*
+
+Las aserciones también pueden declararse dentro de `config` con condiciones incorporadas como `nonNull`, `uniqueKey` y `rowConditions`. Dataform las convierte en consultas que solo pasan si no devuelven filas.
 
 Las dependencias se administran de tres formas:
 
@@ -179,20 +197,27 @@ Las dependencias se administran de tres formas:
 - `dependencies: [...]`: declara dependencias explícitas en `config`;
 - `${resolve("tabla")}`: resuelve el nombre sin crear una dependencia.
 
+![[Pasted image 20260903094045.png|900]]
+
 ### Ejemplo de DAG del curso
 
 ```mermaid
 flowchart LR
     A[customer_source<br/>declaration] --> B[customer_intermediate<br/>table]
     B --> C{customer_rowConsistency<br/>assertion}
-    C --> D[customer_ml_training<br/>operation]
+    C --> D[customer_ml_training<br/>operations]
     C --> E[customer_prod_view<br/>view]
 ```
 
-El grafo hace visible el orden de ejecución y evita coordinar tablas manualmente. Los flujos pueden activarse:
+> [!example]- Ver la captura del curso
+> ![[Pasted image 20260903094440.png|900]]
+>
+> La interfaz trunca algunos nombres; el diagrama anterior los muestra completos.
 
-- **internamente**: ejecución manual o programación en Dataform;
-- **externamente**: Cloud Scheduler o Cloud Composer.
+El grafo muestra esta secuencia: `declaration` → `table` → `assertion`; después continúa hacia una acción `operations` y una `view`. Así se hace visible el orden de ejecución y se evita coordinar tablas manualmente. Los flujos pueden activarse:
+
+- **en Dataform**: ejecución manual o mediante una configuración de flujo de trabajo;
+- **externamente**: Workflows con Cloud Scheduler o Managed Service for Apache Airflow —llamado Cloud Composer en el curso—.
 
 ## Ejemplo completo
 
@@ -227,11 +252,17 @@ La ventaja de ELT aquí es que los datos crudos permanecen disponibles para repr
 > [!question]- ¿Cuál es la diferencia entre una UDF y un procedimiento almacenado?
 > La UDF calcula y devuelve un valor dentro de una consulta; el procedimiento ejecuta una secuencia parametrizable de instrucciones y puede administrar transacciones.
 
+> [!question]- ¿Qué ventaja aporta el SQL de procedimientos de BigQuery?
+> Permite ejecutar varias instrucciones en secuencia con estado compartido, incluidas variables, control de flujo y transacciones.
+
+> [!question]- ¿Por qué un procedimiento almacenado mejora la mantenibilidad?
+> Porque encapsula una secuencia reutilizable y parametrizable en un solo lugar, en vez de duplicarla entre consultas o aplicaciones.
+
 > [!question]- ¿Qué diferencia hay entre `ref()` y `resolve()` en Dataform?
 > Ambas resuelven el nombre de una relación, pero `ref()` también la incorpora al grafo de dependencias.
 
 > [!question]- ¿Qué acciones de Dataform sirven para calidad y SQL personalizado?
-> `assertion` para pruebas de calidad y `operation` para ejecutar instrucciones SQL personalizadas.
+> `assertion` para pruebas de calidad y `operations` para ejecutar instrucciones SQL personalizadas.
 
 > [!question]- ¿Por qué cargar primero datos crudos puede facilitar una recuperación?
 > Porque conserva la entrada original y permite corregir la transformación y reprocesar sin volver a extraer desde la fuente.
@@ -239,7 +270,10 @@ La ventaja de ELT aquí es que los datos crudos permanecen disponibles para repr
 ## Recursos verificados
 
 - [Descripción general de Dataform](https://cloud.google.com/dataform/docs/overview)
-- [SQL de procedimientos en BigQuery](https://cloud.google.com/bigquery/docs/procedural-language)
+- [Crear tablas y vistas](https://cloud.google.com/dataform/docs/create-tables)
+- [Crear aserciones](https://cloud.google.com/dataform/docs/assertions)
+- [Configurar acciones adicionales](https://cloud.google.com/dataform/docs/configure-additional-actions)
+- [SQL de procedimientos en BigQuery](https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/procedural-language)
 - [Funciones definidas por el usuario](https://cloud.google.com/bigquery/docs/user-defined-functions)
 - [Funciones remotas](https://cloud.google.com/bigquery/docs/remote-functions)
 - [Programar consultas](https://cloud.google.com/bigquery/docs/scheduling-queries)

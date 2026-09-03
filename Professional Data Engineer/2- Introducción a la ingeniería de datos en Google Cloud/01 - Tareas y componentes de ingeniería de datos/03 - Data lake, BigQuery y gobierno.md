@@ -1,6 +1,6 @@
 # Data lake, BigQuery y gobierno
 
-[[00 - Índice del módulo|← Índice del módulo]] · [[02 - Elegir almacenamiento en Google Cloud|← Anterior: elegir almacenamiento]] · [[04 - Migración y replicación con Datastream|Siguiente: migración y Datastream →]]
+[[00 - Índice|← Índice de la sección]] · [[02 - Elegir almacenamiento en Google Cloud|← Anterior: elegir almacenamiento]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/02 - Replicación y migración de datos/00 - Índice|Siguiente sección: replicación y migración →]]
 
 > [!summary] Idea clave
 > Un **data lake** conserva datos diversos con flexibilidad; un **data warehouse** los prepara para análisis consistente. En Google Cloud, **BigQuery** cubre el análisis empresarial, mientras **Dataplex y Knowledge Catalog** aportan contexto y gobierno, y **BigQuery sharing** permite publicar datos sin crear una copia para cada consumidor.
@@ -225,4 +225,4 @@ Los consumidores pueden descubrir *listings*, suscribirse y consultar los datos 
 
 ---
 
-[[00 - Índice del módulo|← Índice del módulo]] · [[02 - Elegir almacenamiento en Google Cloud|← Anterior: elegir almacenamiento]] · [[04 - Migración y replicación con Datastream|Siguiente: migración y Datastream →]]
+[[00 - Índice|← Índice de la sección]] · [[02 - Elegir almacenamiento en Google Cloud|← Anterior: elegir almacenamiento]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/02 - Replicación y migración de datos/00 - Índice|Siguiente sección: replicación y migración →]]

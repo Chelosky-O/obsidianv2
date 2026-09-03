@@ -1,6 +1,6 @@
 # 02 — Cloud Scheduler y Workflows
 
-[[00 - Índice|Índice del sub-módulo]] · [[01 - Patrones y opciones de pipelines|← Anterior: Patrones y opciones]] · [[03 - Cloud Composer|Siguiente: Cloud Composer →]]
+[[00 - Índice|Índice de la sección]] · [[01 - Patrones y opciones de pipelines|← Anterior: Patrones y opciones]] · [[03 - Cloud Composer|Siguiente: Cloud Composer →]]
 
 > [!abstract] Resumen
 > **Cloud Scheduler** automatiza tareas invocando tus workloads en **intervalos recurrentes** definidos. Te permite fijar tanto la **frecuencia** como la **hora exacta** del día. Los disparos pueden basarse en llamadas **HTTPS**, **App Engine HTTP**, mensajes **Pub/Sub**, o **Workflows**. Es de **bajo esfuerzo** porque se configura en gran parte con **YAML**.

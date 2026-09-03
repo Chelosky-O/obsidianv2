@@ -1,6 +1,6 @@
 # 02 — Elegir almacenamiento en Google Cloud
 
-[[00 - Índice del módulo|Índice del módulo]] · [[01 - Fundamentos de pipelines y tipos de datos|← Anterior: Fundamentos de pipelines y tipos de datos]] · [[03 - Data lake, BigQuery y gobierno|Siguiente: Data lake, BigQuery y gobierno →]]
+[[00 - Índice|Índice de la sección]] · [[01 - Fundamentos de pipelines y tipos de datos|← Anterior: fundamentos]] · [[03 - Data lake, BigQuery y gobierno|Siguiente: data lake y gobierno →]]
 
 > [!abstract] Resumen
 > La elección de almacenamiento comienza por el **tipo de carga**, no por el nombre del producto:
@@ -277,4 +277,4 @@ Base de datos NoSQL de alto rendimiento para búsquedas por clave. Encaja en car
 
 ---
 
-[[00 - Índice del módulo|Índice del módulo]] · [[01 - Fundamentos de pipelines y tipos de datos|← Anterior: Fundamentos de pipelines y tipos de datos]] · [[03 - Data lake, BigQuery y gobierno|Siguiente: Data lake, BigQuery y gobierno →]]
+[[00 - Índice|Índice de la sección]] · [[01 - Fundamentos de pipelines y tipos de datos|← Anterior: fundamentos]] · [[03 - Data lake, BigQuery y gobierno|Siguiente: data lake y gobierno →]]

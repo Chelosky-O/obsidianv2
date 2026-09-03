@@ -1,6 +1,6 @@
 # 03 — Cloud Composer
 
-[[00 - Índice|Índice del sub-módulo]] · [[02 - Cloud Scheduler y Workflows|← Anterior: Cloud Scheduler y Workflows]] · [[04 - Cloud Run Functions|Siguiente: Cloud Run Functions →]]
+[[00 - Índice|Índice de la sección]] · [[02 - Cloud Scheduler y Workflows|← Anterior: Cloud Scheduler y Workflows]] · [[04 - Cloud Run Functions|Siguiente: Cloud Run Functions →]]
 
 > [!abstract] Resumen
 > **Cloud Composer** es un **orquestador central** basado en **Apache Airflow**. Integra pipelines a través de sistemas diversos — **Google Cloud, on-premises o multicloud**. Usa **operators, tasks y dependencies** para definir y gestionar workflows. Ofrece funcionalidades de **triggering, monitoring y logging** para control completo de la ejecución.

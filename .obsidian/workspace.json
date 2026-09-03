@@ -11,14 +11,14 @@
             "id": "b0faa2d7ebe9859e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Professional Data Engineer/01 - Apuntes nuevos.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/plugins/obsidian-git/obsidian_askpass.sh",
+                "bFile": ".obsidian/plugins/obsidian-git/obsidian_askpass.sh",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "01 - Apuntes nuevos"
+              "icon": "diff",
+              "title": "Diff: obsidian_askpass.sh"
             }
           }
         ]
@@ -182,8 +182,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8685d27877a960df",
+  "active": "b0faa2d7ebe9859e",
   "lastOpenFiles": [
+    "Professional Data Engineer/01 - Apuntes nuevos.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/00 - Índice del curso.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - Técnicas de automatización/05 - Eventarc.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - Técnicas de automatización/04 - Cloud Run Functions.md",
@@ -216,7 +217,6 @@
     "Img/Pasted image 20260903121158.png",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/08 - Streaming con Pub Sub y Dataflow.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/07 - ETL con Data Fusion y Dataproc.md",
-    "Professional Data Engineer/00 - Ruta Professional Data Engineer.md",
     "Img/Pasted image 20260903120947.png",
     "Img/Pasted image 20260903110437.png",
     "Img/Pasted image 20260903105736.png",

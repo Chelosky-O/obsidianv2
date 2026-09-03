@@ -11,14 +11,14 @@
             "id": "b0faa2d7ebe9859e",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/plugins/obsidian-git/obsidian_askpass.sh",
-                "bFile": ".obsidian/plugins/obsidian-git/obsidian_askpass.sh",
-                "aRef": ""
+                "file": "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/05 - Patrón de extracción, transformación y carga (ETL)/03 - Quiz de la sección ETL.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: obsidian_askpass.sh"
+              "icon": "lucide-file",
+              "title": "03 - Quiz de la sección ETL"
             }
           }
         ]
@@ -184,9 +184,11 @@
   },
   "active": "b0faa2d7ebe9859e",
   "lastOpenFiles": [
+    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/05 - Patrón de extracción, transformación y carga (ETL)/02 - Streaming con Pub Sub y Dataflow.md",
+    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/05 - Patrón de extracción, transformación y carga (ETL)/01 - ETL con Data Fusion y Dataproc.md",
+    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - Técnicas de automatización/05 - Eventarc.md",
     "Professional Data Engineer/01 - Apuntes nuevos.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/00 - Índice del curso.md",
-    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - Técnicas de automatización/05 - Eventarc.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - Técnicas de automatización/04 - Cloud Run Functions.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - Técnicas de automatización/03 - Cloud Composer.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - Técnicas de automatización/02 - Cloud Scheduler y Workflows.md",
@@ -194,8 +196,6 @@
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - Técnicas de automatización/00 - Índice.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - Técnicas de automatización",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/99 - Guía rápida de decisiones.md",
-    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/05 - Patrón de extracción, transformación y carga (ETL)/02 - Streaming con Pub Sub y Dataflow.md",
-    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/05 - Patrón de extracción, transformación y carga (ETL)/01 - ETL con Data Fusion y Dataproc.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/04 - Patrón de extracción, carga y transformación (ELT)/01 - ELT y Dataform.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/03 - Patrón de extracción y carga (EL)/01 - Carga de datos y BigLake.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/02 - Replicación y migración de datos/01 - Migración y replicación con Datastream.md",

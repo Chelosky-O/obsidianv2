@@ -5,16 +5,13 @@
 
 [[00 - Índice|← Índice de la sección]] · [[02 - Streaming con Pub Sub y Dataflow|← Streaming y Dataflow]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - Técnicas de automatización/00 - Índice|Siguiente sección →]]
 
-| Pregunta | Tema | Resultado |
-|---:|---|:---:|
-| 1 | Data Fusion | ✅ |
-| 2 | Spark serverless | ✅ |
-| 3 | Dataprep | ✅ |
-| 4 | Dataflow templates | ✅ |
-| 5 | BigQuery frente a Bigtable | ❌ |
-
-> [!warning] Error que debes repasar
-> Para analítica operacional con **latencia de milisegundos por clave**, la respuesta es **Bigtable**, no BigQuery. Dataflow puede procesar el flujo; Bigtable sirve los resultados con la latencia solicitada.
+| Pregunta | Tema                       | Resultado |
+| -------: | -------------------------- | :-------: |
+|        1 | Data Fusion                |     ✅     |
+|        2 | Spark serverless           |     ✅     |
+|        3 | Dataprep                   |     ✅     |
+|        4 | Dataflow templates         |     ✅     |
+|        5 | BigQuery frente a Bigtable |     ✅     |
 
 ## 1. Pipelines visuales complejos
 

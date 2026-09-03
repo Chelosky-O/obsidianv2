@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "24ffc589e8662f50",
+        "id": "5aab11eda2933047",
         "type": "tabs",
         "children": [
           {
-            "id": "e6d6c5621964e2be",
+            "id": "636ca718d9625c30",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: workspace.json"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -182,7 +178,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e6d6c5621964e2be",
+  "active": "3b674207d8860726",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/99 - Guía rápida de decisiones.md",

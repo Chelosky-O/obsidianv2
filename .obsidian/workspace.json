@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7bd54e491f4711d6",
+        "id": "24ffc589e8662f50",
         "type": "tabs",
         "children": [
           {
-            "id": "b0faa2d7ebe9859e",
+            "id": "e6d6c5621964e2be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Professional Data Engineer/01 - Apuntes nuevos.md",
+                "file": "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/Técnicas de automatización/00 - Índice.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01 - Apuntes nuevos"
+              "title": "00 - Índice"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 471.62890625
   },
   "right": {
     "id": "73ae9e14283fc329",
@@ -182,24 +182,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b0faa2d7ebe9859e",
+  "active": "e6d6c5621964e2be",
   "lastOpenFiles": [
+    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/Técnicas de automatización/00 - Índice.md",
+    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/Técnicas de automatización/03 - Cloud Composer.md",
+    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/Técnicas de automatización/05 - Eventarc.md",
+    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/Técnicas de automatización/04 - Cloud Run Functions.md",
+    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/Técnicas de automatización/02 - Cloud Scheduler y Workflows.md",
+    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/Técnicas de automatización/01 - Patrones y opciones de pipelines.md",
+    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/02 - Elegir almacenamiento en Google Cloud.md",
+    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/01 - Fundamentos de pipelines y tipos de datos.md",
+    "Professional Data Engineer/01 - Apuntes nuevos.md",
+    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/00 - Índice del módulo.md",
+    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/Técnicas de automatización",
     "Img/Pasted image 20260903094141.png",
     "Img/Pasted image 20260903094045.png",
     "Img/Pasted image 20260903093833.png",
-    "Professional Data Engineer/01 - Apuntes nuevos.md",
     "Img/Pasted image 20260903093734.png",
     "Img/Pasted image 20260903093715.png",
     "Professional Data Engineer/00 - Ruta Professional Data Engineer.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/Soluciones de Almacenamiento de Google.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/05 - Carga de datos y BigLake.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/04 - Migración y replicación con Datastream.md",
-    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/02 - Elegir almacenamiento en Google Cloud.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/03 - Data lake, BigQuery y gobierno.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/07 - Guía rápida de decisiones.md",
-    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/00 - Índice del módulo.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - ELT y Dataform.md",
-    "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/01 - Fundamentos de pipelines y tipos de datos.md",
     "Professional Data Engineer/Servicios GCP/BigQuery.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/Patrón de canalización de datos de extracción, carga y transformación.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/Fuentes de datos frente a receptores de datos.md",
@@ -209,7 +216,6 @@
     "Img/Pasted image 20260902152226.png",
     "Img/Pasted image 20260902152221.png",
     "Img/Pasted image 20260902152146.png",
-    "Pasted image 20260902152436.png",
     "Img",
     "Cloud EKM.md",
     "Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud",
@@ -222,13 +228,7 @@
     "Professional Data Engineer/1- Diagnostico/T-GCPPDE-A-m1-l7-es-file-13.es.pdf",
     "Professional Data Engineer/1- Diagnostico/T-GCPPDE-A-m4-l6-es-file-28.es.pdf",
     "Professional Data Engineer/1- Diagnostico/T-GCPPDE-A-m2-l6-es-file-18.es.pdf",
-    "Professional Data Engineer/1- Diagnostico/T-GCPPDE-A-m3-l6-es-file-23.es.pdf",
     "ACL/Ciclo de Vida del Software y su Integración Estratégica con OKR y KPI.md",
-    "Data Analyst Google/Curso 2.md",
-    "Gestión de proyectos Google/Curso 1.md",
-    "CiberSeguridad Google/Curso 2.md",
-    "CiberSeguridad Google/Curso 1.md",
-    "Data Analyst Google/Curso 1/Modulo 2/4 - Importancia de las decisiones empresariales.md",
-    "Data Analyst Google/Curso 1/Modulo 2/3 - Data analysis toolbox.md"
+    "Data Analyst Google/Curso 2.md"
   ]
 }

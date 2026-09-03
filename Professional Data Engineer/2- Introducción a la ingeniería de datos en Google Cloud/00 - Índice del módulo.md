@@ -20,6 +20,12 @@
 | 6 | [[06 - ELT y Dataform]] | ¿Cómo se transforman y validan dentro de BigQuery? |
 | 7 | [[07 - Guía rápida de decisiones]] | ¿Qué servicio elegir ante un escenario de examen? |
 
+## Sub-módulos
+
+| Sub-módulo | Nota |
+|---|---|
+| [[Técnicas de automatización/00 - Índice\|Técnicas de automatización]] | Cómo automatizar y orquestar cargas ELT/ETL (Scheduler, Composer, Cloud Run Functions, Eventarc) |
+
 ## Progreso de estudio
 
 - [ ] 1. Fundamentos de pipelines y tipos de datos

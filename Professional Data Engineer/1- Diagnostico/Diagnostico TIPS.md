@@ -1,48 +1,57 @@
+# Diagnóstico — puntos clave para el examen
+
+> [!abstract] Cómo usar esta nota
+> Repasa los puntos por servicio e intenta explicar el **porqué** de cada elección antes de mirar el resto de la línea. Los enlaces llevan a las fichas relacionadas cuando existen.
+
+[[00 - Ruta Professional Data Engineer|← Volver a la ruta]]
+
+---
+
 ## BigQuery
 
-- En [[BigQuery]] #bigquery #seguridad, las **etiquetas de política** permiten controlar el acceso a nivel de columna. Úsalas cuando solo ciertos usuarios deban ver columnas sensibles.
-- En [[BigQuery]] #bigquery #rendimiento, si los datos son jerárquicos y normalmente se consultan juntos, conviene usar **campos anidados y repetidos** en vez de mantener muchas tablas normalizadas.
-- En [[BigQuery]] #bigquery #rendimiento, una **vista normal** vuelve a ejecutar la consulta sobre los datos originales cada vez que se utiliza.
-- En [[BigQuery]] #bigquery #rendimiento, una **vista materializada** puede mejorar el rendimiento cuando se ejecutan repetidamente las mismas consultas complejas, porque precalcula y almacena resultados.
-- En [[BigQuery]] #bigquery #sql, si necesitas calcular algo sobre varias filas pero obtener **un resultado para cada fila**, utiliza una **función analítica con `OVER`**.
-- En [[BigQuery]] #bigquery #rendimiento, `LIMIT` **no reduce necesariamente los datos procesados**, porque se aplica al final de la consulta.
-- En [[BigQuery]] #bigquery #rendimiento, intenta **filtrar los datos lo antes posible** para reducir la cantidad de datos procesados durante el resto de la consulta.
-- En [[BigQuery]] #bigquery #rendimiento, evita los **self JOIN** cuando puedas. Las funciones analíticas pueden ser una alternativa más eficiente.
-- En [[BigQuery]] #bigquery #rendimiento, es mejor realizar **inserciones y actualizaciones por lotes** que modificar filas individualmente.
-- En [[BigQuery]] #bigquery #particiones, las tablas particionadas permiten que una consulta lea solamente una parte de los datos, mejorando rendimiento y reduciendo datos procesados.
-- En [[BigQuery]] #bigquery, para analítica normalmente conviene **desnormalizar los datos**, ya que realizar JOIN grandes de forma repetida aumenta el costo y el tiempo de las consultas.
-- En [[BigQuery]] #bigquery #views, utiliza una **vista** cuando quieras simplificar una consulta compleja para otros usuarios sin duplicar los datos.
-- En [[BigQuery]] #bigquery #federatedquery, las **consultas federadas** permiten consultar datos de [[Cloud SQL]] directamente desde BigQuery sin copiarlos primero. Son útiles cuando esos datos cambian frecuentemente.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #seguridad, las **etiquetas de política** permiten controlar el acceso a nivel de columna. Úsalas cuando solo ciertos usuarios deban ver columnas sensibles.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #rendimiento, si los datos son jerárquicos y normalmente se consultan juntos, conviene usar **campos anidados y repetidos** en vez de mantener muchas tablas normalizadas.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #rendimiento, una **vista normal** vuelve a ejecutar la consulta sobre los datos originales cada vez que se utiliza.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #rendimiento, una **vista materializada** puede mejorar el rendimiento cuando se ejecutan repetidamente las mismas consultas complejas, porque precalcula y almacena resultados.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #sql, si necesitas calcular algo sobre varias filas pero obtener **un resultado para cada fila**, utiliza una **función analítica con `OVER`**.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #rendimiento, `LIMIT` **no reduce necesariamente los datos procesados**, porque se aplica al final de la consulta.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #rendimiento, intenta **filtrar los datos lo antes posible** para reducir la cantidad de datos procesados durante el resto de la consulta.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #rendimiento, evita los **self JOIN** cuando puedas. Las funciones analíticas pueden ser una alternativa más eficiente.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #rendimiento, es mejor realizar **inserciones y actualizaciones por lotes** que modificar filas individualmente.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #particiones, las tablas particionadas permiten que una consulta lea solamente una parte de los datos, mejorando rendimiento y reduciendo datos procesados.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery, para analítica normalmente conviene **desnormalizar los datos**, ya que realizar JOIN grandes de forma repetida aumenta el costo y el tiempo de las consultas.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #views, utiliza una **vista** cuando quieras simplificar una consulta compleja para otros usuarios sin duplicar los datos.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #federatedquery, las **consultas federadas** permiten consultar datos de [[Cloud SQL]] directamente desde BigQuery sin copiarlos primero. Son útiles cuando esos datos cambian frecuentemente.
 
 ### Costos y cargas de trabajo
 
-- En [[BigQuery]] #bigquery #costos, el modelo **a pedido** cobra según el consumo realizado.
-- En [[BigQuery]] #bigquery #costos, si necesitas capacidad adicional solamente durante un **período breve de alta demanda**, el material del curso recomienda utilizar capacidad temporal en vez de asumir compromisos largos.
-- En [[BigQuery]] #bigquery #costos, si la demanda de capacidad es estable y predecible durante períodos largos, tiene más sentido evaluar capacidad reservada o compromisos que pagar continuamente por picos de consumo.
-- En [[BigQuery]] #bigquery #batch, las **consultas interactivas** buscan ejecutarse inmediatamente.
-- En [[BigQuery]] #bigquery #batch, las **consultas por lotes** pueden esperar hasta que haya recursos disponibles.
-- En [[BigQuery]] #bigquery #cuotas, si tienes miles de consultas de reportes ejecutándose al mismo tiempo y alcanzas el límite de consultas simultáneas, mueve las consultas que no son urgentes a **modo batch**.
-- En [[BigQuery]] #bigquery #cuotas, aumentar o reservar capacidad no necesariamente soluciona un **límite de concurrencia de consultas**.
-- En [[BigQuery]] #bigquery #views, ejecutar las consultas mediante una vista tampoco evita el límite de consultas simultáneas.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #costos, el modelo **a pedido** cobra según el consumo realizado.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #costos, si necesitas capacidad adicional solamente durante un **período breve de alta demanda**, el material del curso recomienda utilizar capacidad temporal en vez de asumir compromisos largos.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #costos, si la demanda de capacidad es estable y predecible durante períodos largos, tiene más sentido evaluar capacidad reservada o compromisos que pagar continuamente por picos de consumo.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #batch, las **consultas interactivas** buscan ejecutarse inmediatamente.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #batch, las **consultas por lotes** pueden esperar hasta que haya recursos disponibles.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #cuotas, si tienes miles de consultas de reportes ejecutándose al mismo tiempo y alcanzas el límite de consultas simultáneas, mueve las consultas que no son urgentes a **modo batch**.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #cuotas, aumentar o reservar capacidad no necesariamente soluciona un **límite de concurrencia de consultas**.
+- En [[03 - Data lake, BigQuery y gobierno|BigQuery]] #bigquery #views, ejecutar las consultas mediante una vista tampoco evita el límite de consultas simultáneas.
 
 
 ## Cloud Storage
 
-- En [[Soluciones de Almacenamiento de Google]] #cloudstorage, **Standard** está pensado para datos que se consultan frecuentemente.
+- En [[02 - Elegir almacenamiento en Google Cloud|Cloud Storage]] #cloudstorage, **Standard** está pensado para datos que se consultan frecuentemente.
 
-- En [[Soluciones de Almacenamiento de Google]] #cloudstorage, **Nearline** es adecuado para datos a los que se accede aproximadamente una vez al mes.
+- En [[02 - Elegir almacenamiento en Google Cloud|Cloud Storage]] #cloudstorage, **Nearline** es adecuado para datos a los que se accede aproximadamente una vez al mes.
 
-- En [[Soluciones de Almacenamiento de Google]] #cloudstorage, **Coldline** es adecuado para datos a los que se accede muy poco, por ejemplo una vez por trimestre.
+- En [[02 - Elegir almacenamiento en Google Cloud|Cloud Storage]] #cloudstorage, **Coldline** es adecuado para datos a los que se accede muy poco, por ejemplo una vez por trimestre.
 
-- En [[Soluciones de Almacenamiento de Google]] #cloudstorage, **Archive** es adecuado para datos que prácticamente no se utilizan, por ejemplo una vez al año o menos.
+- En [[02 - Elegir almacenamiento en Google Cloud|Cloud Storage]] #cloudstorage, **Archive** es adecuado para datos que prácticamente no se utilizan, por ejemplo una vez al año o menos.
 
-- En [[Soluciones de Almacenamiento de Google]] #cloudstorage #costos, utiliza **políticas de ciclo de vida** para mover automáticamente objetos a clases de almacenamiento más económicas cuando dejan de utilizarse frecuentemente.
+- En [[02 - Elegir almacenamiento en Google Cloud|Cloud Storage]] #cloudstorage #costos, utiliza **políticas de ciclo de vida** para mover automáticamente objetos a clases de almacenamiento más económicas cuando dejan de utilizarse frecuentemente.
 
-- En [[Soluciones de Almacenamiento de Google]] #cloudstorage #retencion, utiliza una **política de retención** cuando los archivos deban permanecer inmutables durante un período determinado.
+- En [[02 - Elegir almacenamiento en Google Cloud|Cloud Storage]] #cloudstorage #retencion, utiliza una **política de retención** cuando los archivos deban permanecer inmutables durante un período determinado.
 
-- En [[Soluciones de Almacenamiento de Google]] #cloudstorage, el **versionado de objetos no equivale a una política de retención**. Mantiene versiones anteriores, pero puede aumentar los costos.
+- En [[02 - Elegir almacenamiento en Google Cloud|Cloud Storage]] #cloudstorage, el **versionado de objetos no equivale a una política de retención**. Mantiene versiones anteriores, pero puede aumentar los costos.
 
-- Para [[Dataproc]] #dataproc, [[Soluciones de Almacenamiento de Google]] es una buena opción de almacenamiento porque los datos permanecen independientes de los nodos y pueden utilizarse desde distintos clústeres.
+- Para [[Dataproc]] #dataproc, [[02 - Elegir almacenamiento en Google Cloud|Cloud Storage]] es una buena opción de almacenamiento porque los datos permanecen independientes de los nodos y pueden utilizarse desde distintos clústeres.
 
 
 ## Cloud SQL y Spanner
@@ -84,7 +93,7 @@
 
 - [[Pub/Sub]] #pubsub #streaming se utiliza para **recibir y distribuir eventos o mensajes** dentro de arquitecturas de procesamiento en tiempo real.
 
-- En una pipeline de streaming, [[Pub/Sub]] normalmente funciona como la **entrada de eventos**, [[Dataflow]] los procesa y [[BigQuery]] almacena los resultados para análisis.
+- En una pipeline de streaming, [[Pub/Sub]] normalmente funciona como la **entrada de eventos**, [[Dataflow]] los procesa y [[03 - Data lake, BigQuery y gobierno|BigQuery]] almacena los resultados para análisis.
 
 
 ## Dataflow
@@ -231,7 +240,7 @@
 
 - En [[Dataplex]] #dataplex, un **lake representa un dominio de datos o unidad de negocio**, no necesariamente una tecnología específica de almacenamiento.
 
-- Un lake de [[Dataplex]] puede contener datos tanto de [[Soluciones de Almacenamiento de Google]] como de [[BigQuery]].
+- Un lake de [[Dataplex]] puede contener datos tanto de [[02 - Elegir almacenamiento en Google Cloud|Cloud Storage]] como de [[03 - Data lake, BigQuery y gobierno|BigQuery]].
 
 - En [[Dataplex]] #dataplex, utiliza una **Raw Zone** para datos sin procesar.
 
@@ -290,6 +299,6 @@
 
 - La ingeniería de atributos puede incluir **combinar columnas existentes para crear nuevas variables más útiles**.
 
-# Analytics Hub
+## Analytics Hub
 
 - [[Analytics Hub]] #analyticshub es una herramienta conveniente para compartir datos con socios de manera segura y eficiente. Los ingenieros de datos tendrán control sobre lo que las personas pueden hacer con sus datos. Analytics Hub también puede convertir un centro de costos en un centro de ganancias con la monetización de datos.

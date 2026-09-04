@@ -10,9 +10,9 @@
 
 ## Contenido
 
-| # | Nota | Pregunta que responde |
-|---:|---|---|
-| 1 | [[01 - Carga de datos y BigLake]] | ¿Cómo cargar datos en BigQuery o consultarlos donde ya están? |
+|   # | Nota                              | Pregunta que responde                                         |
+| --: | --------------------------------- | ------------------------------------------------------------- |
+|   1 | [[01 - Carga de datos y BigLake]] | ¿Cómo cargar datos en BigQuery o consultarlos donde ya están? |
 
 ## Progreso
 

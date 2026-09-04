@@ -9,11 +9,11 @@
 
 | Sub-módulo | Nota |
 |---|---|
-| [[Professional Data Engineer/3- Crea data lakes y almacenes de datos en Google Cloud/01 - Introducción a la Ingeniería de Datos Moderna/00 - Índice\|01 · Introduction to Modern Data Engineering]] | Fundamentos: data lakes, data warehouses y el lakehouse |
-| [[Professional Data Engineer/3- Crea data lakes y almacenes de datos en Google Cloud/02 - Contruyendo un data lakehouse con Cloud Storage, open formats y BigQuery/00 - Índice\|02 · Building a data lakehouse]] | Lakehouse con Cloud Storage, formatos abiertos y BigQuery |
+| [[Professional Data Engineer/3- Crea data lakes y almacenes de datos en Google Cloud/01 - Introducción a la Ingeniería de Datos Moderna/00 - Índice\|01 · Introducción a la Ingeniería de Datos Moderna]] | Fundamentos: data lakes, data warehouses y el lakehouse |
+| [[Professional Data Engineer/3- Crea data lakes y almacenes de datos en Google Cloud/02 - Construyendo un data lakehouse con Cloud Storage, formatos abiertos y BigQuery/00 - Índice\|02 · Construyendo un data lakehouse]] | Lakehouse con Cloud Storage, formatos abiertos y BigQuery |
 
 ## Progreso del curso
 
-- [ ] 01 · Introduction to Modern Data Engineering on Google Cloud
-- [ ] 02 · Building a data lakehouse (en curso)
+- [ ] 01 · Introducción a la Ingeniería de Datos Moderna
+- [ ] 02 · Construyendo un data lakehouse (en curso)
 - [ ] *(próximos módulos del curso)*

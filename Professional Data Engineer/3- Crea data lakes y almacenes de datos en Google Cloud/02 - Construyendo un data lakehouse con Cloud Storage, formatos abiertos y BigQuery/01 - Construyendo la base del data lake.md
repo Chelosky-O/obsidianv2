@@ -1,6 +1,6 @@
-# 01 — Building a data lake foundation
+# 01 — Construyendo la base del data lake
 
-[[Professional Data Engineer/3- Crea data lakes y almacenes de datos en Google Cloud/02 - Contruyendo un data lakehouse con Cloud Storage, open formats y BigQuery/00 - Índice|Índice del sub-módulo]] · [[02 - El enfoque moderno - Data lakehouse|← Módulo 1]] 
+[[Professional Data Engineer/3- Crea data lakes y almacenes de datos en Google Cloud/02 - Construyendo un data lakehouse con Cloud Storage, formatos abiertos y BigQuery/00 - Índice|Índice del sub-módulo]] · [[02 - El enfoque moderno - Data lakehouse|← Módulo 1]] 
 
 > [!abstract] Resumen
 > Para un negocio online (ej. **Cymbal**), los datos son un activo crítico: historial de compras, clics en el sitio, logística de supply chain y rendimiento de campañas. Una **arquitectura de datos robusta** es esencial para decidir con datos, personalizar experiencias y optimizar operaciones. La **base del data lake** de un lakehouse en Google Cloud se construye, principalmente, con **Cloud Storage**.

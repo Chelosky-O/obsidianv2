@@ -1,6 +1,6 @@
-# Building a data lakehouse with Cloud Storage, open formats, and BigQuery
+# Construyendo un data lakehouse con Cloud Storage, formatos abiertos y BigQuery
 
-[[00 - Índice del curso|← Volver al curso]] · [[01 - Introduction to Modern Data Engineering on Google Cloud|Sub-módulo anterior]]
+[[00 - Índice del curso|← Volver al curso]] · [[01 - Introducción a la Ingeniería de Datos Moderna|Sub-módulo anterior]]
 
 > [!abstract] Objetivo del sub-módulo
 > Un **lakehouse** combina lo mejor de los **data warehouses** y los **data lakes** en una única plataforma unificada. Aquí exploramos cómo Google Cloud te ayuda a construir esta arquitectura moderna de datos usando **formatos abiertos**, empezando por las **opciones de almacenamiento** y cómo encajan en una estrategia de lakehouse.
@@ -14,12 +14,16 @@
 
 | # | Nota | Pregunta que responde |
 |---:|---|---|
-| 1 | [[01 - Building a data lake foundation]] | ¿Cómo se construye la base del data lake con Cloud Storage? |
-| 2 | [[02 - Introduction to Apache Iceberg open table format]] | ¿Cómo dar estructura y rendimiento a los archivos? (open table format) |
-| 3 | *(próxima lección)* | — |
+| 1 | [[01 - Construyendo la base del data lake]] | ¿Cómo se construye la base del data lake con Cloud Storage? |
+| 2 | [[02 - Introducción a Apache Iceberg (formato de tabla abierto)]] | ¿Cómo dar estructura y rendimiento a los archivos? (formato de tabla abierto) |
+| 3 | [[03 - Combinando datos operacionales en AlloyDB]] | ¿Dónde va el dato operacional en tiempo real? (AlloyDB) |
+| 4 | [[04 - BigQuery como motor central de procesamiento]] | ¿Qué motor activa la analítica del lakehouse? |
+| 5 | *(próxima lección)* | — |
 
 ## Progreso
 
-- [x] 1. Building a data lake foundation
-- [x] 2. Introduction to Apache Iceberg
-- [ ] 3. *(próxima)*
+- [x] 1. Construyendo la base del data lake
+- [x] 2. Introducción a Apache Iceberg
+- [x] 3. Combinando datos operacionales en AlloyDB
+- [x] 4. BigQuery como motor central de procesamiento
+- [ ] 5. *(próxima)*

@@ -1,6 +1,6 @@
-# 02 — Introduction to Apache Iceberg (open table format)
+# 02 — Introducción a Apache Iceberg (formato de tabla abierto)
 
-[[00 - Índice|Índice del sub-módulo]] · [[01 - Building a data lake foundation|← Anterior: Data lake foundation]]
+[[00 - Índice|Índice del sub-módulo]] · [[01 - Construyendo la base del data lake|← Anterior: Construyendo la base del data lake]]
 
 > [!abstract] Resumen
 > Cloud Storage es excelente para **guardar archivos crudos**, pero un data lakehouse necesita una forma de dar **estructura y rendimiento** a esos datos. Ahí entran los **open table formats** — y **Apache Iceberg** es un ejemplo líder. Agega una **capa de metadatos y estructura** sobre los archivos en Cloud Storage, actuando como **índice y catálogo** de los archivos de datos.

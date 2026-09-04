@@ -18,7 +18,8 @@
 | 2 | [[02 - Introducción a Apache Iceberg (formato de tabla abierto)]] | ¿Cómo dar estructura y rendimiento a los archivos? (formato de tabla abierto) |
 | 3 | [[03 - Combinando datos operacionales en AlloyDB]] | ¿Dónde va el dato operacional en tiempo real? (AlloyDB) |
 | 4 | [[04 - BigQuery como motor central de procesamiento]] | ¿Qué motor activa la analítica del lakehouse? |
-| 5 | *(próxima lección)* | — |
+| 5 | [[05 - Caso de uso real]] | ¿Cómo se integran todos los componentes? (Cymbal) |
+| 6 | *(próxima lección)* | — |
 
 ## Progreso
 
@@ -26,4 +27,5 @@
 - [x] 2. Introducción a Apache Iceberg
 - [x] 3. Combinando datos operacionales en AlloyDB
 - [x] 4. BigQuery como motor central de procesamiento
-- [ ] 5. *(próxima)*
+- [x] 5. Caso de uso real
+- [ ] 6. *(próxima)*

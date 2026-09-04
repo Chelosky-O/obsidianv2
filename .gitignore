@@ -1,0 +1,10 @@
+# Obsidian: estado de ventanas (causa falsos conflictos en cada pull)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# Temporales del plugin obsidian-git
+conflict-files-obsidian-git.md
+
+# Sistema
+.DS_Store

@@ -3,7 +3,7 @@
 > [!abstract] Idea central
 > En **ETL**, los datos se extraen, se transforman y luego se cargan en el destino analítico final. En Google Cloud puedes diseñar esa transformación visualmente con **Cloud Data Fusion** o ejecutar código de Hadoop y Spark con **Managed Service for Apache Spark**, llamado **Dataproc** en el curso.
 
-[[00 - Índice|← Índice de la sección]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/04 - Patrón de extracción, carga y transformación (ELT)/01 - ELT y Dataform|← Sección anterior: ELT]] · [[02 - Streaming con Pub Sub y Dataflow|Streaming y Dataflow →]]
+[[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/05 - Patrón de extracción, transformación y carga (ETL)/00 - Índice|← Índice de la sección]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/04 - Patrón de extracción, carga y transformación (ELT)/01 - ELT y Dataform|← Sección anterior: ELT]] · [[02 - Streaming con Pub Sub y Dataflow|Streaming y Dataflow →]]
 
 > [!info] Cambio de nombre
 > Google unificó **Dataproc** y **Serverless for Apache Spark** bajo **Managed Service for Apache Spark**. El curso, la API, la CLI y varios recursos todavía usan el nombre Dataproc; para estudiar conviene reconocer ambos.

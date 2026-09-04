@@ -3,7 +3,7 @@
 > [!abstract] Idea central
 > **Pub/Sub** transporta eventos y desacopla productores de consumidores. **Apache Beam** define la canalización y **Dataflow** la ejecuta como servicio administrado, tanto con datos batch como con flujos continuos.
 
-[[00 - Índice|← Índice de la sección]] · [[01 - ETL con Data Fusion y Dataproc|← ETL y Spark]] · [[03 - Quiz de la sección ETL|Quiz de la sección →]]
+[[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/05 - Patrón de extracción, transformación y carga (ETL)/00 - Índice|← Índice de la sección]] · [[01 - ETL con Data Fusion y Dataproc|← ETL y Spark]] · [[03 - Quiz de la sección ETL|Quiz de la sección →]]
 
 ## Batch frente a streaming
 

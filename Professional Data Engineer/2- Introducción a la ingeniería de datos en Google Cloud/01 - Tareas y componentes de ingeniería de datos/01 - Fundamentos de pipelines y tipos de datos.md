@@ -3,7 +3,7 @@
 > [!summary] Idea clave
 > Una canalización convierte **datos sin procesar** en información útil: parte de una **fuente**, mueve y transforma los datos, y termina en un **receptor** donde quedan disponibles para uso futuro, análisis y toma de decisiones.
 
-[[00 - Índice|← Índice de la sección]] · [[02 - Elegir almacenamiento en Google Cloud|Siguiente: elegir almacenamiento →]]
+[[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/01 - Tareas y componentes de ingeniería de datos/00 - Índice|← Índice de la sección]] · [[02 - Elegir almacenamiento en Google Cloud|Siguiente: elegir almacenamiento →]]
 
 ## Recorrido de los datos
 

@@ -1,6 +1,6 @@
 # Migración y replicación con Datastream
 
-[[00 - Índice|← Índice de la sección]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/01 - Tareas y componentes de ingeniería de datos/03 - Data lake, BigQuery y gobierno|← Sección anterior]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/03 - Patrón de extracción y carga (EL)/00 - Índice|Siguiente sección: patrón EL →]]
+[[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/02 - Replicación y migración de datos/00 - Índice|← Índice de la sección]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/01 - Tareas y componentes de ingeniería de datos/03 - Data lake, BigQuery y gobierno|← Sección anterior]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/03 - Patrón de extracción y carga (EL)/00 - Índice|Siguiente sección: patrón EL →]]
 
 > [!summary] Resumen
 > Migrar mueve datos hacia Google Cloud; replicar mantiene una copia sincronizada. La herramienta depende sobre todo del **volumen**, el **ancho de banda**, la **frecuencia**, el **tipo de origen** y de si hace falta **transformar**. Para bases de datos operativas, Datastream realiza una carga histórica inicial y después captura cambios mediante **CDC** con baja latencia.
@@ -203,4 +203,4 @@ La tabla ilustra la normalización; no sustituye las reglas de conversión ofici
 - [Comportamiento de Datastream](https://cloud.google.com/datastream/docs/behavior-overview) y [eventos y streams](https://cloud.google.com/datastream/docs/events-and-streams)
 - [Plantilla Datastream to BigQuery de Dataflow](https://cloud.google.com/dataflow/docs/guides/templates/provided/datastream-to-bigquery)
 
-[[00 - Índice|← Índice de la sección]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/01 - Tareas y componentes de ingeniería de datos/03 - Data lake, BigQuery y gobierno|← Sección anterior]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/03 - Patrón de extracción y carga (EL)/00 - Índice|Siguiente sección: patrón EL →]]
+[[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/02 - Replicación y migración de datos/00 - Índice|← Índice de la sección]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/01 - Tareas y componentes de ingeniería de datos/03 - Data lake, BigQuery y gobierno|← Sección anterior]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/03 - Patrón de extracción y carga (EL)/00 - Índice|Siguiente sección: patrón EL →]]

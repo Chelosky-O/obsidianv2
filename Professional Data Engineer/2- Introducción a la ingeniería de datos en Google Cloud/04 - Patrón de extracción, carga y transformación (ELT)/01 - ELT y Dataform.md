@@ -3,7 +3,7 @@
 > [!abstract] Idea central
 > En **ELT**, los datos se cargan primero en tablas de *staging* de BigQuery y se transforman después, aprovechando la capacidad de procesamiento de BigQuery. El resultado se materializa en tablas de producción listas para análisis.
 
-[[00 - Índice|← Índice de la sección]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/03 - Patrón de extracción y carga (EL)/01 - Carga de datos y BigLake|← Sección anterior: patrón EL]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/05 - Patrón de extracción, transformación y carga (ETL)/00 - Índice|Siguiente sección: patrón ETL →]]
+[[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/04 - Patrón de extracción, carga y transformación (ELT)/00 - Índice|← Índice de la sección]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/03 - Patrón de extracción y carga (EL)/01 - Carga de datos y BigLake|← Sección anterior: patrón EL]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/05 - Patrón de extracción, transformación y carga (ETL)/00 - Índice|Siguiente sección: patrón ETL →]]
 
 ## Mapa del patrón
 

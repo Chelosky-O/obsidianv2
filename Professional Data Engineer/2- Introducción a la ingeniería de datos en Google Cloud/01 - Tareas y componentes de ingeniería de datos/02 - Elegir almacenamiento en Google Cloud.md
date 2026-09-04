@@ -1,6 +1,6 @@
 # 02 — Elegir almacenamiento en Google Cloud
 
-[[00 - Índice|Índice de la sección]] · [[01 - Fundamentos de pipelines y tipos de datos|← Anterior: fundamentos]] · [[03 - Data lake, BigQuery y gobierno|Siguiente: data lake y gobierno →]]
+[[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/01 - Tareas y componentes de ingeniería de datos/00 - Índice|Índice de la sección]] · [[01 - Fundamentos de pipelines y tipos de datos|← Anterior: fundamentos]] · [[03 - Data lake, BigQuery y gobierno|Siguiente: data lake y gobierno →]]
 
 > [!abstract] Resumen
 > La elección de almacenamiento comienza por el **tipo de carga**, no por el nombre del producto:
@@ -277,4 +277,4 @@ Base de datos NoSQL de alto rendimiento para búsquedas por clave. Encaja en car
 
 ---
 
-[[00 - Índice|Índice de la sección]] · [[01 - Fundamentos de pipelines y tipos de datos|← Anterior: fundamentos]] · [[03 - Data lake, BigQuery y gobierno|Siguiente: data lake y gobierno →]]
+[[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/01 - Tareas y componentes de ingeniería de datos/00 - Índice|Índice de la sección]] · [[01 - Fundamentos de pipelines y tipos de datos|← Anterior: fundamentos]] · [[03 - Data lake, BigQuery y gobierno|Siguiente: data lake y gobierno →]]

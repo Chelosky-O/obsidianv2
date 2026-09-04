@@ -3,7 +3,7 @@
 > [!success] Resultado del intento
 > **80 % — aprobado**. Respondiste correctamente 4 de 5 preguntas, justo el mínimo requerido.
 
-[[00 - Índice|← Índice de la sección]] · [[02 - Streaming con Pub Sub y Dataflow|← Streaming y Dataflow]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - Técnicas de automatización/00 - Índice|Siguiente sección →]]
+[[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/05 - Patrón de extracción, transformación y carga (ETL)/00 - Índice|← Índice de la sección]] · [[02 - Streaming con Pub Sub y Dataflow|← Streaming y Dataflow]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - Técnicas de automatización/00 - Índice|Siguiente sección →]]
 
 | Pregunta | Tema                       | Resultado |
 | -------: | -------------------------- | :-------: |

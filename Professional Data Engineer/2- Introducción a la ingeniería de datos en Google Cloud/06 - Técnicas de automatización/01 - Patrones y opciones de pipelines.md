@@ -1,6 +1,6 @@
 # 01 — Patrones y opciones de pipelines
 
-[[00 - Índice|Índice de la sección]] · [[02 - Cloud Scheduler y Workflows|Siguiente: Cloud Scheduler y Workflows →]]
+[[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - Técnicas de automatización/00 - Índice|Índice de la sección]] · [[02 - Cloud Scheduler y Workflows|Siguiente: Cloud Scheduler y Workflows →]]
 
 > [!abstract] Resumen
 > En Google Cloud, las cargas **ELT y ETL** se pueden automatizar para ejecutarse de forma **recurrente**.

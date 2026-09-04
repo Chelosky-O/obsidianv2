@@ -1,6 +1,6 @@
 # 04 — Cloud Run Functions
 
-[[00 - Índice|Índice de la sección]] · [[03 - Cloud Composer|← Anterior: Cloud Composer]] · [[05 - Eventarc|Siguiente: Eventarc →]]
+[[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/06 - Técnicas de automatización/00 - Índice|Índice de la sección]] · [[03 - Cloud Composer|← Anterior: Cloud Composer]] · [[05 - Eventarc|Siguiente: Eventarc →]]
 
 > [!abstract] Resumen
 > **Cloud Run Functions** ejecuta código en respuesta a **eventos de Google Cloud**. Los eventos pueden venir de **HTTP requests, Pub/Sub messages, cambios en Cloud Storage, actualizaciones de Firestore, o eventos personalizados vía Eventarc**. Provee un entorno de ejecución **serverless** y soporta **múltiples lenguajes**. Es **event-driven** y de **esfuerzo alto** (código real).

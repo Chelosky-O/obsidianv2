@@ -1,6 +1,6 @@
 # Carga de datos y BigLake
 
-[[00 - Índice|← Índice de la sección]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/02 - Replicación y migración de datos/01 - Migración y replicación con Datastream|← Sección anterior]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/04 - Patrón de extracción, carga y transformación (ELT)/00 - Índice|Siguiente sección: patrón ELT →]]
+[[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/03 - Patrón de extracción y carga (EL)/00 - Índice|← Índice de la sección]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/02 - Replicación y migración de datos/01 - Migración y replicación con Datastream|← Sección anterior]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/04 - Patrón de extracción, carga y transformación (ELT)/00 - Índice|Siguiente sección: patrón ELT →]]
 
 > [!summary] Resumen
 > En un patrón **EL**, los datos se extraen y cargan primero en BigQuery; las transformaciones posteriores con SQL convierten el flujo en **ELT**. Cargar crea una copia en el almacenamiento nativo de BigQuery. Una tabla externa consulta el origen sin copiarlo, mientras que BigLake añade delegación de acceso, gobierno detallado y caché de metadatos sobre datos que siguen en el lago.
@@ -174,4 +174,4 @@ La conexión actúa como frontera de delegación: el usuario consulta la tabla s
 - [Introducción a BigLake](https://cloud.google.com/bigquery/docs/biglake-intro)
 - [Caché de metadatos para tablas externas](https://cloud.google.com/bigquery/docs/metadata-caching-external-tables)
 
-[[00 - Índice|← Índice de la sección]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/02 - Replicación y migración de datos/01 - Migración y replicación con Datastream|← Sección anterior]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/04 - Patrón de extracción, carga y transformación (ELT)/00 - Índice|Siguiente sección: patrón ELT →]]
+[[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/03 - Patrón de extracción y carga (EL)/00 - Índice|← Índice de la sección]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/02 - Replicación y migración de datos/01 - Migración y replicación con Datastream|← Sección anterior]] · [[Professional Data Engineer/2- Introducción a la ingeniería de datos en Google Cloud/04 - Patrón de extracción, carga y transformación (ELT)/00 - Índice|Siguiente sección: patrón ELT →]]
